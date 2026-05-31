@@ -1,1 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #f4f3ef; 
+    font-family: "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2b2b2b; 
+    padding: 60px 20px; 
+}
+
+.story-card {
+    display: block;
+    max-width: 460px; 
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    padding: 35px; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06); 
+    border-radius: 8px; 
+}
+
+.card-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px; 
+    color: #1a1a1a;
+    text-align: center; 
+    margin-bottom: 8px;
+}
+
+.card-subtitle {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #8c8c8c; 
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.image-wrapper {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.main-image {
+    display: block;
+    width: 100%; 
+    height: auto;
+    border-radius: 4px; 
+    filter: brightness(0.98); 
+}
+
+.image-caption {
+    display: block;
+    font-size: 11px;
+    color: #a0a0a0;
+    text-align: right; 
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.card-content {
+    display: block;
+    font-size: 14px;
+    line-height: 1.8; 
+    color: #4a4a4a;
+    text-align: justify; 
+    letter-spacing: 0.8px;
+    margin-bottom: 35px;
+}
+
+.card-footer {
+    display: block;
+    font-size: 12px;
+    color: #8c8c8c;
+    text-align: center;
+    border-top: 1px solid #eeeeee; 
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
