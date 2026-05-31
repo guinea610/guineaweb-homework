@@ -1,1 +1,0 @@
-# guineaweb-homework
